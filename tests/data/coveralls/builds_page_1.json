@@ -1,0 +1,72 @@
+{
+    "page": 1,
+    "pages": 3,
+    "total": 15,
+    "builds": [
+        {
+            "created_at": "2022-01-13T12:23:48Z",
+            "url": null,
+            "commit_message": "Update version number 0.17.15",
+            "branch": "master",
+            "committer_name": "Quan Zhou",
+            "committer_email": "quan@bitergia.com",
+            "commit_sha": "ba19bfd5e40bffdd422ca8e68526326b47f97491",
+            "repo_name": "chaoss/grimoirelab-perceval",
+            "badge_url": "https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_97.svg",
+            "coverage_change": 0.0,
+            "covered_percent": 97.0042987641053
+        },
+        {
+            "created_at": "2022-01-11T17:36:55Z",
+            "url": null,
+            "commit_message": "Merge 8cf828ff013b8a2ad8531618a53485adbec98736 into eed8d1d332eb3a8385188a0a32dcadc9c032a924",
+            "branch": "dependabot/pip/urllib3-1.26.5",
+            "committer_name": "GitHub",
+            "committer_email": "noreply@github.com",
+            "commit_sha": "f66eacfd39e781364521eca2681ed85905757f4f",
+            "repo_name": "chaoss/grimoirelab-perceval",
+            "badge_url": "https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_97.svg",
+            "coverage_change": 0.0,
+            "covered_percent": 97.0042987641053
+        },
+        {
+            "created_at": "2022-01-11T17:36:44Z",
+            "url": null,
+            "commit_message": "Bump urllib3 from 1.26.3 to 1.26.5",
+            "branch": "dependabot/pip/urllib3-1.26.5",
+            "committer_name": "GitHub",
+            "committer_email": "noreply@github.com",
+            "commit_sha": "8cf828ff013b8a2ad8531618a53485adbec98736",
+            "repo_name": "chaoss/grimoirelab-perceval",
+            "badge_url": "https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_97.svg",
+            "coverage_change": 97.004,
+            "covered_percent": 97.0042987641053
+        },
+        {
+            "created_at": "2022-01-11T17:36:38Z",
+            "url": null,
+            "commit_message": "Merge ff892fe9f4faec66bcb3615a3de13fb3dd2ba80d into eed8d1d332eb3a8385188a0a32dcadc9c032a924",
+            "branch": "dependabot/pip/cryptography-3.3.2",
+            "committer_name": "GitHub",
+            "committer_email": "noreply@github.com",
+            "commit_sha": "63050a5ca9fdc948f819146b66fe0a2d51f8bb25",
+            "repo_name": "chaoss/grimoirelab-perceval",
+            "badge_url": "https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_97.svg",
+            "coverage_change": 0.0,
+            "covered_percent": 97.0042987641053
+        },
+        {
+            "created_at": "2022-01-11T17:36:30Z",
+            "url": null,
+            "commit_message": "Bump cryptography from 3.3.1 to 3.3.2",
+            "branch": "dependabot/pip/cryptography-3.3.2",
+            "committer_name": "GitHub",
+            "committer_email": "noreply@github.com",
+            "commit_sha": "ff892fe9f4faec66bcb3615a3de13fb3dd2ba80d",
+            "repo_name": "chaoss/grimoirelab-perceval",
+            "badge_url": "https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_97.svg",
+            "coverage_change": 97.004,
+            "covered_percent": 97.0042987641053
+        }
+    ]
+}

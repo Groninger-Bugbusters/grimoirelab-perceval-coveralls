@@ -1,0 +1,72 @@
+{
+    "page": 3,
+    "pages": 3,
+    "total": 15,
+    "builds": [
+        {
+            "created_at": "2021-11-19T16:24:40Z",
+            "url": null,
+            "commit_message": "Update version number 0.17.14",
+            "branch": "master",
+            "committer_name": "Quan Zhou",
+            "committer_email": "quan@bitergia.com",
+            "commit_sha": "47891c0d6dd2512169bb9c8d1c0eca5ddda5ee9b",
+            "repo_name": "chaoss/grimoirelab-perceval",
+            "badge_url": "https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_97.svg",
+            "coverage_change": 0.0,
+            "covered_percent": 97.0042987641053
+        },
+        {
+            "created_at": "2021-11-19T08:49:06Z",
+            "url": null,
+            "commit_message": "Merge branch 'git_ssl_verify' of 'https://github.com/zhquan/perceval'",
+            "branch": "master",
+            "committer_name": "Santiago Dueñas",
+            "committer_email": "sduenas@bitergia.com",
+            "commit_sha": "10dab27cc51ed17c95fd3b6bcb3a3f2872fa6895",
+            "repo_name": "chaoss/grimoirelab-perceval",
+            "badge_url": "https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_97.svg",
+            "coverage_change": 0.001,
+            "covered_percent": 97.0042987641053
+        },
+        {
+            "created_at": "2021-11-17T15:58:01Z",
+            "url": null,
+            "commit_message": "Merge fc44a9d992b0050c3c1aee8a5478f9623d50d254 into b42f8ff437d395c2fa0bcb7c78ecb817af080c45",
+            "branch": "git_ssl_verify",
+            "committer_name": "GitHub",
+            "committer_email": "noreply@github.com",
+            "commit_sha": "1a4903417659bfbe86a01728930e6f2ccea303fb",
+            "repo_name": "chaoss/grimoirelab-perceval",
+            "badge_url": "https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_97.svg",
+            "coverage_change": 0.001,
+            "covered_percent": 97.0042987641053
+        },
+        {
+            "created_at": "2021-11-17T15:57:23Z",
+            "url": null,
+            "commit_message": "Merge 2b12b8b533f0086258de5ffa14d5cb477133fbea into b42f8ff437d395c2fa0bcb7c78ecb817af080c45",
+            "branch": "git_ssl_verify",
+            "committer_name": "GitHub",
+            "committer_email": "noreply@github.com",
+            "commit_sha": "b2c5282c06bd6e2c5abe6953d625d3ac8e9cbf18",
+            "repo_name": "chaoss/grimoirelab-perceval",
+            "badge_url": "https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_97.svg",
+            "coverage_change": 0.001,
+            "covered_percent": 97.0042987641053
+        },
+        {
+            "created_at": "2021-10-25T17:59:08Z",
+            "url": null,
+            "commit_message": "Update version number 0.17.13",
+            "branch": "master",
+            "committer_name": "Quan Zhou",
+            "committer_email": "quan@bitergia.com",
+            "commit_sha": "b42f8ff437d395c2fa0bcb7c78ecb817af080c45",
+            "repo_name": "chaoss/grimoirelab-perceval",
+            "badge_url": "https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_97.svg",
+            "coverage_change": 0.0,
+            "covered_percent": 97.0030909823948
+        }
+    ]
+}

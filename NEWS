@@ -1,0 +1,8 @@
+# Releases
+
+## perceval-coveralls 0.1.0 - (2022-01-21)
+
+** New features and improvements: **
+
+* New set of backends added:
+   - Coveralls

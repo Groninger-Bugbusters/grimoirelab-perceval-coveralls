@@ -1,0 +1,72 @@
+{
+    "page": 2,
+    "pages": 3,
+    "total": 15,
+    "builds": [
+        {
+            "created_at": "2022-01-11T17:35:20Z",
+            "url": null,
+            "commit_message": "Merge branch 'release-file' of 'https://github.com/jjmerchante/grimoirelab-perceval'",
+            "branch": "master",
+            "committer_name": "Santiago Dueñas",
+            "committer_email": "sduenas@bitergia.com",
+            "commit_sha": "eed8d1d332eb3a8385188a0a32dcadc9c032a924",
+            "repo_name": "chaoss/grimoirelab-perceval",
+            "badge_url": "https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_97.svg",
+            "coverage_change": 0.0,
+            "covered_percent": 97.0042987641053
+        },
+        {
+            "created_at": "2022-01-10T09:10:10Z",
+            "url": null,
+            "commit_message": "Merge 0ed630b0af80bdb3db011878559a99c5ac77e60d into 47891c0d6dd2512169bb9c8d1c0eca5ddda5ee9b",
+            "branch": "release-file",
+            "committer_name": "GitHub",
+            "committer_email": "noreply@github.com",
+            "commit_sha": "d08f799db1e6fffb685e3b3bc28d700de27a45ef",
+            "repo_name": "chaoss/grimoirelab-perceval",
+            "badge_url": "https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_97.svg",
+            "coverage_change": 0.0,
+            "covered_percent": 97.0042987641053
+        },
+        {
+            "created_at": "2021-12-16T10:04:01Z",
+            "url": null,
+            "commit_message": "Merge 4fdfab4160fb9d88e2a31ee742569d4297911534 into 47891c0d6dd2512169bb9c8d1c0eca5ddda5ee9b",
+            "branch": "release-file",
+            "committer_name": "GitHub",
+            "committer_email": "noreply@github.com",
+            "commit_sha": "5f1c810230929989bead1731585394feda4b2275",
+            "repo_name": "chaoss/grimoirelab-perceval",
+            "badge_url": "https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_97.svg",
+            "coverage_change": 0.0,
+            "covered_percent": 97.0042987641053
+        },
+        {
+            "created_at": "2021-12-16T10:02:05Z",
+            "url": null,
+            "commit_message": "Merge 2d0932708b90bd0e102a21b40622ed6df080cb87 into 47891c0d6dd2512169bb9c8d1c0eca5ddda5ee9b",
+            "branch": "release-file",
+            "committer_name": "GitHub",
+            "committer_email": "noreply@github.com",
+            "commit_sha": "a7f9c591bf54de015c69bac9dabd7f5d6d1d2b89",
+            "repo_name": "chaoss/grimoirelab-perceval",
+            "badge_url": "https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_97.svg",
+            "coverage_change": 0.0,
+            "covered_percent": 97.0042987641053
+        },
+        {
+            "created_at": "2021-12-10T09:16:21Z",
+            "url": null,
+            "commit_message": "Merge d89fb2008b13b9b9ad943d0f85a06c8c558f5c35 into 47891c0d6dd2512169bb9c8d1c0eca5ddda5ee9b",
+            "branch": "release-file",
+            "committer_name": "GitHub",
+            "committer_email": "noreply@github.com",
+            "commit_sha": "57aef63b176eeb0b9b490b17339b880eec0e3149",
+            "repo_name": "chaoss/grimoirelab-perceval",
+            "badge_url": "https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_97.svg",
+            "coverage_change": 0.0,
+            "covered_percent": 97.0042987641053
+        }
+    ]
+}
