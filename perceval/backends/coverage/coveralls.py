@@ -31,7 +31,7 @@ class Coveralls(Backend):
 
     CATEGORIES = [CATEGORY_TEST_COVERAGE]
 
-    def __init__(self, repo: str, tag=None, ssl_verify=True):
+    def __init__(self, repo: str, tag=None, ssl_verify=True, archive=None):
         origin = repo
         super().__init__(origin, tag=tag, ssl_verify=ssl_verify)
         self.repo = repo
@@ -65,10 +65,6 @@ class Coveralls(Backend):
             page_raw: requests.Response = self.client.fetch(f"{resource_url}?page={page_number}")
             page = page_raw.json()
             build_coverages += page['builds']
-
-        # Url returned is always None. Filter that out:
-        for build in build_coverages:
-            build.pop("url")
 
         # Add the moment when it was retrieved to the data:
         for build in build_coverages:
