@@ -1,6 +1,8 @@
 import logging
 import time
+
 from typing import List, Dict
+from calendar import timegm
 
 import requests
 
@@ -31,9 +33,10 @@ class Coveralls(Backend):
 
     CATEGORIES = [CATEGORY_TEST_COVERAGE]
 
-    def __init__(self, repo: str, tag=None, ssl_verify=True, archive=None):
+    def __init__(self, service:str, repo: str, tag=None, ssl_verify=True, archive=None):
         origin = repo
         super().__init__(origin, tag=tag, ssl_verify=ssl_verify)
+        self.service = service
         self.repo = repo
         self.client = None
 
@@ -52,7 +55,7 @@ class Coveralls(Backend):
 
         build_coverages: List[Dict] = []
 
-        resource_url = f"{COVERALLS_BASE_URL}{self.repo}.json"
+        resource_url = f"{COVERALLS_BASE_URL}{self.service}/{self.repo}.json"
 
         first_page_raw: requests.Response = self.client.fetch(f"{resource_url}?page=1")
         first_page = first_page_raw.json()
@@ -111,7 +114,9 @@ class Coveralls(Backend):
 
     @staticmethod
     def metadata_updated_on(item) -> time.struct_time:
-        return item['retrieved_on']
+        parsed_time = time.strptime(item['created_at'], "%Y-%m-%dT%H:%M:%S%z")
+        timestamp = timegm(parsed_time)
+        return timestamp
 
 
 class CoverallsCommand(BackendCommand):
@@ -128,6 +133,8 @@ class CoverallsCommand(BackendCommand):
                                               archive=False,
                                               ssl_verify=True)
 
+        parser.parser.add_argument('service', help="The service where the repo is hosted: "
+                                                "github, gitlab or bitbucket")
         parser.parser.add_argument('repo', help="The repo to fetch the items for, example: "
-                                                "github/chaoss/grimoirelab-perceval")
+                                                "chaoss/grimoirelab-perceval")
         return parser
