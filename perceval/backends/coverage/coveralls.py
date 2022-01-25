@@ -66,10 +66,6 @@ class Coveralls(Backend):
             page = page_raw.json()
             build_coverages += page['builds']
 
-        # Add the moment when it was retrieved to the data:
-        for build in build_coverages:
-            build['retrieved_on'] = time.time()
-
         return build_coverages
 
     def search_fields(self, item) -> dict:
