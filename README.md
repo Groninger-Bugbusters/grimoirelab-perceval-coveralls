@@ -38,11 +38,17 @@ $ pip3 install -e .
 
 ## Examples
 
-### Coveralls
+### Running coveralls for a specific repository
+```
+$ perceval coveralls github chaoss/grimoirelab-perceval
+```
 
-```
-$ perceval coveralls
-```
+### Arguments
+The first argument should be the service used, either github, gitlab, or bitbucket.
+
+The second argument should be the repository name as it appears in the coveralls url:
+for https://coveralls.io/github/chaoss/grimoirelab-perceval, the argument would be chaoss/grimoirelab-perceval
+
 
 ## License
 
