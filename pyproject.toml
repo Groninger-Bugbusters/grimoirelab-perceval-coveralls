@@ -8,7 +8,7 @@ license = "GPL-3.0+"
 readme = "README.md"
 
 homepage = "https://chaoss.github.io/grimoirelab/"
-repository = "https://github.com/Groninger-Bugbusters/grimoirelab-pereval-coveralls"
+repository = "https://github.com/Groninger-Bugbusters/grimoirelab-perceval-coveralls"
 
 keywords = [
 	"development",
